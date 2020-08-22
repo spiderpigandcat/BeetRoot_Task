@@ -1,7 +1,20 @@
-$default-font: "roboto-example", sans-serif;
+//$default-font: "roboto-example", sans-serif;
+$helvetica: "Eurostile", sans-serif;
+$default-font: "Helvetica", sans-serif;
 $accent: orange;
 $text: #333;
 $yellow: #ffdd00;
+$red: #db302c;
+
+.yellow-btn{
+    border: none;
+    background-color: $yellow;
+        margin: 0 auto;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+    
+}
 
 // Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
 $grid-gutter-width: 30px;
